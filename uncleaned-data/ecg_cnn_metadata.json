@@ -1,0 +1,32 @@
+{
+  "classes": [
+    "abnormal",
+    "borderline",
+    "normal"
+  ],
+  "fixed_length": 3000,
+  "expected_leads": 8,
+  "active_leads": [
+    "Lead_1",
+    "Lead_2",
+    "Lead_3",
+    "Lead_4"
+  ],
+  "group_id_regex": null,
+  "test_folders": [
+    "CFA9_2min_cranial_position",
+    "CFA34_2min_cranial_position",
+    "327699_2min_cranial_position"
+  ],
+  "validation_folders": [
+    "HAHA10_2min",
+    "CFA2_2min_cranial_position",
+    "CFA40_2min_cranial_position",
+    "CFA12_2min_cranial_position",
+    "CFA8_2min_cranial_position",
+    "CFA36_2min_cranial_position"
+  ],
+  "test_samples_evaluated": 3,
+  "validation_samples": 6,
+  "train_samples": 17
+}
