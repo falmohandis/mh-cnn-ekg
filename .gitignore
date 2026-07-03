@@ -12,3 +12,14 @@ __pycache__/
 
 # macOS
 .DS_Store
+best_multi_head_ecg_model.keras
+*.keras
+cleaned_data/best_multi_head_ecg_model.keras
+
+*.keras
+*.pickle
+*.pkl
+cleaned_data/data/
+cleaned_data/*.xlsx
+~$*.xlsx
+.DS_Store
