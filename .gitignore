@@ -1,9 +1,18 @@
-# Python / virtual environments
+# Python environments
 .venv/
 venv/
+env/
+tf-env/
+
+# Python cache
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# macOS
+.DS_Store
+EOF
+
 
 # Excel files
 *.xls
@@ -16,4 +25,4 @@ __pycache__/
 ~$*.xls*
 
 # Optional: ignore large data folders
-cleaned_data/
+cleaned_data/batch-data
