@@ -1,25 +1,19 @@
-
-# Python virtual environments
-tf-env/
-ml-env/
+# Python / virtual environments
+.venv/
 venv/
-.env/
-
-# Python cache
 __pycache__/
-*.py[cod]
+*.pyc
 .ipynb_checkpoints/
 
-# macOS
-.DS_Store
-best_multi_head_ecg_model.keras
-*.keras
-cleaned_data/best_multi_head_ecg_model.keras
+# Excel files
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.xlt
+*.xltx
+*.xltm
+~$*.xls*
 
-*.keras
-*.pickle
-*.pkl
-cleaned_data/data/
-cleaned_data/*.xlsx
-~$*.xlsx
-.DS_Store
+# Optional: ignore large data folders
+cleaned_data/
